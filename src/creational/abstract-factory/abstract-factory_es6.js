@@ -1,6 +1,6 @@
 function droidProducer(kind) {
-   if (kind === 'battle') return battleDroidFactory;
-   return pilotDroidFactory;
+   if (kind === 'battle') return new B1();
+   return new Rx24();
 }
 
 function battleDroidFactory() {
